@@ -1,5 +1,3 @@
-// Licensed to TheHedgehock
-
 var BetterPage = {
     includeHtml: function() {
         var z, i, elmnt, file, xhttp;
