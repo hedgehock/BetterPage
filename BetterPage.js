@@ -16,7 +16,7 @@ var BetterPage = {
                         if (this.status == 200) {elmnt.innerHTML = this.responseText;}
                         if (this.status == 404) {elmnt.innerHTML = prefix + "Page not found";}
                     
-                        elmnt.removeAttribute("w3-include-html");
+                        elmnt.removeAttribute("include-html");
                         BetterPage.includeHtml();
                     }
                 }
